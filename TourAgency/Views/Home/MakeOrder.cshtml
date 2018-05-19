@@ -1,0 +1,56 @@
+﻿@model TourAgency.Models.TourOrderViewModel
+
+@{
+    ViewBag.Title = "Подтверждение заказа";
+}
+
+<h2>Пожалуйста, подтвердите заказ</h2>
+
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    <div class="col-md-3 card">
+        <div class="card__name">
+            @Html.DisplayFor(model => model.Tour.Name)
+        </div>
+        <div class="card__country">
+            @Html.DisplayFor(model => model.Tour.Country)
+        </div>
+        <div class="card__region">
+            @Html.DisplayFor(model => model.Tour.Region)
+        </div>
+        <div class="card__type">
+            @Html.DisplayFor(model => model.Tour.Type)
+        </div>
+        <div class="card__price">
+            @Html.DisplayFor(model => model.Tour.Price)
+        </div>
+        </div>
+        <div class="form-horizontal">
+            <input type="hidden" name="TourId" value="@Model.TourId" />
+            <input type="hidden" name="Tour" value="@Model.Tour" />
+            <input type="hidden" name="Email" value="@Model.Email" />
+
+            @*<div class="form-group">
+                @Html.LabelFor(model => model.Email, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "form-control" } })
+                </div>
+            </div>*@
+
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="Подтвердить заказ" class="btn btn-primary" />
+                </div>
+            </div>
+        </div>
+        }
+
+        <div>
+            @Html.ActionLink("Вернуться на главную", "Index")
+        </div>
+
+        @section Scripts {
+            @Scripts.Render("~/bundles/jqueryval")
+        }

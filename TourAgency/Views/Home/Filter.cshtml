@@ -1,0 +1,52 @@
+﻿@model TourAgency.Models.ToursFilterViewModel
+
+@{
+    ViewBag.Title = "Фильтр туров";
+}
+
+<h2>Фильтр туров</h2>
+
+
+
+<form method="get">
+    <div class="form-inline">
+        <label class="control-label">Страна: </label>
+        @Html.DropDownList("country", Model.Countries as SelectList,
+                    htmlAttributes: new { @class = "form-control" })
+
+        <label class="control-label">Регион: </label>
+        @Html.DropDownList("region", Model.Regions as SelectList,
+                htmlAttributes: new { @class = "form-control" })
+
+        <label class="control-label">Тип: </label>
+        @Html.DropDownList("type", Model.Type as SelectList,
+                htmlAttributes: new { @class = "form-control" })
+
+        <input type="submit" value="Фильтр" class="btn btn-default" />
+    </div>
+</form>
+
+    @foreach (var item in Model.Tours)
+    {
+        <div class="col-md-3 card">
+            <div class="card__name">
+                @Html.DisplayFor(modelItem => item.Name)
+            </div>
+            <div class="card__country">
+                @Html.DisplayFor(modelItem => item.Country)
+            </div>
+            <div class="card__region">
+                @Html.DisplayFor(modelItem => item.Region)
+            </div>
+            <div class="card__type">
+                @Html.DisplayFor(modelItem => item.Type)
+            </div>
+            <div class="card__price">
+                @Html.DisplayFor(modelItem => item.Price)
+            </div>
+
+            @Html.ActionLink("Заказать", "MakeOrder", new { id = item.Id })
+
+        </div>
+    }
+
