@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{56C8D7CF-4FEA-40A4-AFA1-C1AEB764706E}</ProjectGuid>
+    <ProjectGuid>{E9A6D17D-CA4A-44C4-82B6-880FDF24BD94}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>DAL</RootNamespace>
@@ -54,6 +54,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="EF\TourAgencyContext.cs" />
+    <Compile Include="Entities\User.cs" />
     <Compile Include="Entities\ClientProfile.cs" />
     <Compile Include="Entities\Hotel.cs" />
     <Compile Include="Entities\HotelBooking.cs" />
@@ -61,14 +62,13 @@
     <Compile Include="Entities\TourBooking.cs" />
     <Compile Include="Entities\Transport.cs" />
     <Compile Include="Entities\TransportBooking.cs" />
-    <Compile Include="Entities\User.cs" />
     <Compile Include="Entities\UserRole.cs" />
     <Compile Include="Identity\UserManager.cs" />
     <Compile Include="Identity\UserRoleManager.cs" />
     <Compile Include="Interfaces\IClientManager.cs" />
-    <Compile Include="Interfaces\IRepository.cs" />
     <Compile Include="Interfaces\IUnitOfWork.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Interfaces\IRepository.cs" />
     <Compile Include="Repositories\ClientManager.cs" />
     <Compile Include="Repositories\EFUnitOfWork.cs" />
     <Compile Include="Repositories\HotelBookingRepos.cs" />
@@ -78,6 +78,7 @@
     <Compile Include="Repositories\TransportBookingRepos.cs" />
     <Compile Include="Repositories\TransportRepository.cs" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />

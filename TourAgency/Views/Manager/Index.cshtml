@@ -1,0 +1,51 @@
+﻿@model  IEnumerable<TourAgency.Models.TourViewModel>
+
+@{
+    ViewBag.Title = "Панель менеджера: список товаров";
+    Layout = "~/Views/Shared/_ManagerLayout.cshtml";
+}
+
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h3>Список туров</h3>
+    </div>
+    <div class="panel-body">
+        <table class="table table-striped table-condensed table-bordered">
+            <tr>
+                <th class="text-right">ID</th>
+                <th>Название</th>
+                <th class="text-right">Страна</th>
+                <th class="text-right">Регион</th>
+                <th class="text-right">Тип</th>
+                <th class="text-right">Дата</th>
+                <th class="text-right">Цена</th>
+                <th class="text-center">Действия</th>
+            </tr>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td class="text-right">@item.Id</td>
+                    <td>@Html.ActionLink(item.Name, "EditTour", new { item.Id })</td>
+                    <td class="text-right">@item.Country</td>
+                    <td class="text-right">@item.Region</td>
+                    <td class="text-right">@item.Type</td>
+                    <td class="text-right">@item.Date</td>
+                    <td class="text-right">@item.Price.ToString("# грн")</td>
+                    <td class="text-center">
+                        @using (Html.BeginForm("DeleteTour", "Manager"))
+                        {
+                            @Html.Hidden("Id", item.Id)
+                            <input type="submit"
+                                   class="btn btn-default btn-xs"
+                                   value="Удалить" />
+                        }
+                    </td>
+                </tr>
+            }
+        </table>
+    </div>
+    <div class="panel-footer">
+        @Html.ActionLink("Добавить тур", "CreateTour", null,
+            new { @class = "btn btn-default" })
+    </div>
+</div>

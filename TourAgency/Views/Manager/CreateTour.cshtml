@@ -1,0 +1,45 @@
+﻿@model TourAgency.Models.TourViewModel
+
+@{
+    ViewBag.Title = "Добавление нового тура";
+    Layout = "~/Views/Shared/_ManagerLayout.cshtml";
+}
+
+<div class="panel">
+    <div class="panel-heading">
+        <h3>Создание нового тура</h3>
+    </div>
+
+    @using (Html.BeginForm())
+    {
+        <div class="panel-body">
+            @Html.HiddenFor(m => m.Id)
+            @foreach (var property in ViewData.ModelMetadata.Properties)
+            {
+                if (property.PropertyName != "Id")
+                {
+                    <div class="form-group">
+                        <label>@(property.DisplayName ?? property.PropertyName)</label>
+                        @if (property.PropertyName == "Type")
+                        {
+                            @Html.DropDownList("type", new SelectList(new string[] { "Горячий", "Екскурсия", "Индивидуально" }), new { @class = "form-control" })
+                        }
+                        else
+                        {
+                            @Html.TextBox(property.PropertyName, null,
+                                new { @class = "form-control" })
+                        }
+                        @Html.ValidationMessage(property.PropertyName, new { @class = "text-danger" })
+                    </div>
+                }
+            }
+        </div>
+        <div class="panel-footer">
+            <input type="submit" value="Добавить" class="btn btn-primary" />
+            @Html.ActionLink("Отмена", "Index", null, new
+       {
+           @class = "btn btn-default"
+       })
+        </div>
+    }
+</div>
