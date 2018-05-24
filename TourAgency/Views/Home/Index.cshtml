@@ -1,0 +1,33 @@
+﻿@model  IEnumerable<TourAgency.Models.TourViewModel>
+
+@{
+    ViewBag.Title = "Турагенство";
+}
+
+<h2 class="title">Туры</h2>
+
+
+ @foreach (var item in Model)
+ {
+    <div class="col-md-3 card">
+        <div class="card__name">
+            @Html.DisplayFor(modelItem => item.Name)
+        </div>
+        <div class="card__country">
+            @Html.DisplayFor(modelItem => item.Country)
+        </div>
+        <div class="card__region">
+            @Html.DisplayFor(modelItem => item.Region)
+        </div>
+        <div class="card__type">
+            @Html.DisplayFor(modelItem => item.Type)
+        </div>
+        <div class="card__date">
+            @Html.DisplayFor(modelItem => item.Date)
+        </div>
+        <div class="card__price">
+            @Html.DisplayFor(modelItem => item.Price)
+        </div>
+        @Html.ActionLink("Заказать", "MakeOrder", new { id = item.Id })
+    </div>
+ }   
