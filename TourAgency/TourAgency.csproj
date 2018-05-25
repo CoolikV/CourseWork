@@ -206,7 +206,6 @@
     <Compile Include="Models\ToursFilterViewModel.cs" />
     <Compile Include="Models\TourViewModel.cs" />
     <Compile Include="Models\TransportOrderViewModel.cs" />
-    <Compile Include="Models\TransportViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Util\AppModule.cs" />
     <Compile Include="Util\WebMapperProfile.cs" />

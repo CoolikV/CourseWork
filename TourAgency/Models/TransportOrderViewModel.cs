@@ -8,12 +8,14 @@ using BLL.DTO;
 
 namespace TourAgency.Models
 {
+    public enum TransportType { Авиаперелёт = 1, Автобус, Поезд, Паром }
     public class TransportOrderViewModel
     {
         [Key]
-        public int TransportId { get; set; }
+        public int Id { get; set; }
         public string Email { get; set; }
-        public TransportDTO Transport { get; set; }
+        public TransportType TransportType { get; set; }
         public DateTime DepartureDate { get; set; }
+        public decimal Price { get; set; }
     }
 }

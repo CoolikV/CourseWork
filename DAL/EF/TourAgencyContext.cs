@@ -12,7 +12,6 @@ namespace DAL.EF
     public class TourAgencyContext : /*DbContext,*/ IdentityDbContext<User>
     {
         public DbSet<Tour> Tours { get; set; }
-        public DbSet<Transport> Transport { get; set; }
         public DbSet<Hotel> Hotels { get; set; }
         public DbSet<TourBooking> TourOrders { get; set; }
         public DbSet<TransportBooking> TransportOrders { get; set; }

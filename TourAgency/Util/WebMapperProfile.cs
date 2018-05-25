@@ -14,7 +14,6 @@ namespace TourAgency.Util
         {
             CreateMap<TourViewModel, TourDTO>();
             CreateMap<HotelViewModel, HotelDTO>();
-            CreateMap<TransportViewModel, TransportDTO>();
             CreateMap<TourOrderViewModel, TourOrderDTO>();
 
             CreateMap<HotelOrderViewModel, HotelOrderDTO>();
@@ -22,7 +21,6 @@ namespace TourAgency.Util
             CreateMap<TransportOrderViewModel, TransportOrderDTO>();
             CreateMap<HotelDTO, HotelViewModel>();
             CreateMap<TourDTO, TourViewModel>();
-            CreateMap<TransportDTO, TransportViewModel>();
         }
     }
 }

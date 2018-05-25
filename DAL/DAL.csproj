@@ -60,7 +60,6 @@
     <Compile Include="Entities\HotelBooking.cs" />
     <Compile Include="Entities\Tour.cs" />
     <Compile Include="Entities\TourBooking.cs" />
-    <Compile Include="Entities\Transport.cs" />
     <Compile Include="Entities\TransportBooking.cs" />
     <Compile Include="Entities\UserRole.cs" />
     <Compile Include="Identity\UserManager.cs" />

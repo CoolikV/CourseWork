@@ -92,24 +92,5 @@ namespace BLL.Services
         {
             return Mapper.Map<IEnumerable<Hotel>, List<HotelDTO>>(Database.Hotels.Get());
         }
-
-        public TransportDTO GetTransport(int? id)
-        {
-            if (id == null)
-            {
-                throw new ValidationException("Не установлено id транспорта", "");
-            }
-            var transport = Database.Transport.GetByID(id.Value);
-            if (transport == null)
-            {
-                throw new ValidationException("Транспорт не найден", "");
-            }
-            return Mapper.Map<Transport, TransportDTO>(transport);
-        }
-
-        public IEnumerable<TransportDTO> GetAllTransport()
-        {
-            return Mapper.Map<IEnumerable<Transport>, List<TransportDTO>>(Database.Transport.Get());
-        }
     }
 }

@@ -36,17 +36,12 @@ namespace BLL.Services
 
         public void OrderTransport(TransportOrderDTO orderDTO)
         {
-            Transport transport = Database.Transport.GetByID(orderDTO.TransportId);
-
-            if (transport == null)
-                throw new ValidationException("Транспорт не найден", "");
-
             TransportBooking order = new TransportBooking
             {
-                Date = DateTime.Now,
+                DepartureDate = orderDTO.DepartureDate,
                 Email = orderDTO.Email,
-                Sum = transport.Price,
-                TransportId = orderDTO.TransportId
+                Price = orderDTO.Price,
+                TransportType = orderDTO.TransportType
             };
             Database.TransportOrders.Insert(order);
             Database.Save();

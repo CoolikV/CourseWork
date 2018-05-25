@@ -18,10 +18,6 @@ namespace BLL.Interfaces
         HotelDTO GetHotel(int? id);
         IEnumerable<HotelDTO> GetAllHotels();
 
-
-        TransportDTO GetTransport(int? id);
-        IEnumerable<TransportDTO> GetAllTransport();
-
         void Dispose();
     }
 }

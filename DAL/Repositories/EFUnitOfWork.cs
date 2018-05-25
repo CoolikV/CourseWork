@@ -17,7 +17,6 @@ namespace DAL.Repositories
 
         private GenericRepository<Tour> tourRepository;
         private GenericRepository<Hotel> hotelRepository;
-        private GenericRepository<Transport> transportRepository;
         private GenericRepository<TourBooking> tourBookingRepos;
         private GenericRepository<HotelBooking> hotelBookingRepos;
         private GenericRepository<TransportBooking> transportBookingRepos;
@@ -51,16 +50,6 @@ namespace DAL.Repositories
                 if (hotelRepository == null)
                     hotelRepository = new GenericRepository<Hotel>(db);
                 return hotelRepository;
-            }
-        }
-
-        public IRepository<Transport> Transport
-        {
-            get
-            {
-                if (transportRepository == null)
-                    transportRepository = new GenericRepository<Transport>(db);
-                return transportRepository;
             }
         }
 
