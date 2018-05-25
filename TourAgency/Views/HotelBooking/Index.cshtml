@@ -14,14 +14,21 @@
         </div>
         <div class="card__country">
             <label>Страна</label>
-            @Html.DisplayFor(modelItem => item.Country)
+            <div>
+                @Html.DisplayFor(modelItem => item.Country)
+            </div>
         </div>
         <div class="card__stars">
             <label>Количество звёзд</label>
-            @Html.DisplayFor(modelItem => item.Stars)
+            <div>
+                @Html.DisplayFor(modelItem => item.Stars)
+            </div>
             </div>
         <div class="card__price">
-            @Html.DisplayFor(modelItem => item.Price)
+            <label>Цена за ночь</label>
+            <div>
+                @Html.DisplayFor(modelItem => item.Price)
+            </div>
         </div>
         @Html.ActionLink("Заказать", "MakeOrder", new { id = item.Id })
     </div>
