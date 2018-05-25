@@ -40,7 +40,8 @@ namespace TourAgency.Controllers
         {
             try
             {
-                var orderDto = new TransportOrderDTO {  TransportType = (int)order.TransportType,
+                var orderDto = new TransportOrderDTO {
+                    TransportType = (int)order.TransportType,
                     DepartureDate = order.DepartureDate,
                     Email = System.Web.HttpContext.Current.User.Identity.Name
                     //Price = 1232   

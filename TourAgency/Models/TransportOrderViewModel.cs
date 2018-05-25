@@ -12,7 +12,6 @@ namespace TourAgency.Models
     public class TransportOrderViewModel
     {
         [Key]
-        public int Id { get; set; }
         public string Email { get; set; }
         public TransportType TransportType { get; set; }
         public DateTime DepartureDate { get; set; }
