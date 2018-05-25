@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* NUGET: BEGIN LICENSE TEXT
  *
  * Microsoft grants you the right to use these script files for the sole
@@ -21,6 +22,8 @@
  *
  * NUGET: END LICENSE TEXT */
 
+=======
+>>>>>>> master
 /*!
  * Modernizr v2.6.2
  * www.modernizr.com

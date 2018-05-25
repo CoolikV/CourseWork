@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* NUGET: BEGIN LICENSE TEXT
  *
  * Microsoft grants you the right to use these script files for the sole
@@ -12,6 +13,8 @@
  * below are for informational purposes only.
  *
  * NUGET: END LICENSE TEXT */
+=======
+>>>>>>> master
 /*
 * This file has been generated to support Visual Studio IntelliSense.
 * You should not use this file at runtime inside the browser--it is only
