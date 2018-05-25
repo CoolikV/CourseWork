@@ -10,10 +10,10 @@ namespace BLL.DTO
 {
     public class TransportOrderDTO
     {
-     
         public int Id { get; set; }
-        public int TransportId { get; set; }
+        public int TransportType { get; set; }
         public DateTime Date { get; set; }
         public string Email { get; set; }
+        public decimal Sum { get; set; }
     }
 }
