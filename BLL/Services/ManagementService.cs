@@ -32,13 +32,14 @@ namespace BLL.Services
                 Date = tourDTO.Date,
                 Price = tourDTO.Price
             };
-            Database.Tours.Create(tour);
+
+            Database.Tours.Insert(tour);
             Database.Save();
         }
 
         public void EditTour(TourDTO tourDTO)
         {
-            Tour tour = Database.Tours.Get(tourDTO.Id);
+            Tour tour = Database.Tours.GetByID(tourDTO.Id);
 
             if (tour == null)
                 throw new ValidationException("Запрашиваемый тур не найден в базе", "");
@@ -56,7 +57,7 @@ namespace BLL.Services
 
         public void DeleteTour(int id)
         {
-            Tour tour = Database.Tours.Get(id);
+            Tour tour = Database.Tours.GetByID(id);
 
             if (tour == null)
                 throw new ValidationException("Запрашиваемый тур не найден в базе", "");

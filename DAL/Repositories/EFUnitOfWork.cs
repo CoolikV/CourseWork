@@ -15,12 +15,12 @@ namespace DAL.Repositories
     {
         private TourAgencyContext db;
 
-        private TourRepository tourRepository;
-        private HotelRepository hotelRepository;
-        private TransportRepository transportRepository;
-        private TourBookingRepos tourBookingRepos;
-        private HotelBookingRepos hotelBookingRepos;
-        private TransportBookingRepos transportBookingRepos;
+        private GenericRepository<Tour> tourRepository;
+        private GenericRepository<Hotel> hotelRepository;
+        private GenericRepository<Transport> transportRepository;
+        private GenericRepository<TourBooking> tourBookingRepos;
+        private GenericRepository<HotelBooking> hotelBookingRepos;
+        private GenericRepository<TransportBooking> transportBookingRepos;
 
         private UserManager userManager;
         private UserRoleManager roleManager;
@@ -39,7 +39,7 @@ namespace DAL.Repositories
             get
             {
                 if (tourRepository == null)
-                    tourRepository = new TourRepository(db);
+                    tourRepository = new GenericRepository<Tour>(db);
                 return tourRepository;
             }
         }
@@ -49,7 +49,7 @@ namespace DAL.Repositories
             get
             {
                 if (hotelRepository == null)
-                    hotelRepository = new HotelRepository(db);
+                    hotelRepository = new GenericRepository<Hotel>(db);
                 return hotelRepository;
             }
         }
@@ -58,8 +58,8 @@ namespace DAL.Repositories
         {
             get
             {
-                if(transportRepository == null)
-                    transportRepository = new TransportRepository(db);
+                if (transportRepository == null)
+                    transportRepository = new GenericRepository<Transport>(db);
                 return transportRepository;
             }
         }
@@ -68,8 +68,8 @@ namespace DAL.Repositories
         {
             get
             {
-                if(tourBookingRepos == null)
-                    tourBookingRepos = new TourBookingRepos(db);
+                if (tourBookingRepos == null)
+                    tourBookingRepos = new GenericRepository<TourBooking>(db);
                 return tourBookingRepos;
             }
         }
@@ -79,7 +79,7 @@ namespace DAL.Repositories
             get
             {
                 if (hotelBookingRepos == null)
-                    hotelBookingRepos = new HotelBookingRepos(db);
+                    hotelBookingRepos = new GenericRepository<HotelBooking>(db);
                 return hotelBookingRepos;
             }
         }
@@ -89,7 +89,7 @@ namespace DAL.Repositories
             get
             {
                 if (transportBookingRepos == null)
-                    transportBookingRepos = new TransportBookingRepos(db);
+                    transportBookingRepos = new GenericRepository<TransportBooking>(db);
                 return transportBookingRepos;
             }
         }

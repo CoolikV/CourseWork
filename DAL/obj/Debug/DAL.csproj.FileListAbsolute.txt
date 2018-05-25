@@ -24,7 +24,6 @@ C:\Users\Vadim Coolik\source\local\CourseWork\DAL\bin\Debug\EntityFramework.xml
 C:\Users\Vadim Coolik\source\local\CourseWork\DAL\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\Vadim Coolik\source\local\CourseWork\DAL\bin\Debug\Microsoft.AspNet.Identity.Core.xml
 C:\Users\Vadim Coolik\source\local\CourseWork\DAL\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
-C:\Users\Vadim Coolik\source\local\CourseWork\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
 C:\Users\Vadim Coolik\source\local\CourseWork\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
 C:\Users\Vadim Coolik\source\local\CourseWork\DAL\obj\Debug\DAL.dll
 C:\Users\Vadim Coolik\source\local\CourseWork\DAL\obj\Debug\DAL.pdb

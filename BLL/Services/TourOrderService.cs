@@ -24,7 +24,7 @@ namespace BLL.Services
 
         public void MakeOrder(TourOrderDTO orderDTO)
         {
-            Tour tour = Database.Tours.Get(orderDTO.TourId);
+            Tour tour = Database.Tours.GetByID(orderDTO.TourId);
 
             if (tour == null)
                 throw new ValidationException("Выбраный тур не найден", "");
@@ -35,7 +35,7 @@ namespace BLL.Services
                 Email = orderDTO.Email,
                 Sum = tour.Price
             };
-            Database.TourOrders.Create(order);
+            Database.TourOrders.Insert(order);
             Database.Save();
         }
 
