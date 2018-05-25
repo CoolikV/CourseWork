@@ -23,17 +23,7 @@ namespace BLL.Services
 
         public void AddTour(TourDTO tourDTO)
         {
-            Tour tour = new Tour
-            {
-                Name = tourDTO.Name,
-                Country = tourDTO.Country,
-                Region = tourDTO.Region,
-                Type = tourDTO.Type,
-                Date = tourDTO.Date,
-                Price = tourDTO.Price
-            };
-
-            Database.Tours.Insert(tour);
+            Database.Tours.Insert(Mapper.Map<Tour>(tourDTO));
             Database.Save();
         }
 
@@ -51,7 +41,7 @@ namespace BLL.Services
             tour.Price = tourDTO.Price;
             tour.Region = tourDTO.Region;
 
-            //Database.Tours.Update(tour);
+            Database.Tours.Update(tour);
             Database.Save();
         }
 

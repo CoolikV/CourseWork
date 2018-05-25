@@ -21,6 +21,7 @@ namespace TourAgency.Util
             CreateMap<TransportOrderViewModel, TransportOrderDTO>();
             CreateMap<HotelDTO, HotelViewModel>();
             CreateMap<TourDTO, TourViewModel>();
+
         }
     }
 }

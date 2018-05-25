@@ -22,7 +22,11 @@
                     <label>@(property.DisplayName ?? property.PropertyName)</label>
                     @if (property.PropertyName == "Type")
                     {
-                        @Html.DropDownList("type", new SelectList(new string[] { "Горячий", "Екскурсия", "Индивидуально" }), new {@class = "form-control" })
+                        @Html.DropDownList("type", new SelectList(new string[] { "Горящий", "Екскурсия", "Индивидуально" }), new {@class = "form-control" })
+                    }
+                    else if(property.PropertyName == "Date")
+                    {
+                        @Html.EditorFor(m => m.Date)
                     }
                     else
                     {
