@@ -23,7 +23,7 @@ namespace TourAgency.Controllers
         }
 
         [Authorize]
-        public ActionResult MakeOrder(int? id)
+        public ActionResult MakeOrder()
         {
             try
             {
@@ -44,8 +44,7 @@ namespace TourAgency.Controllers
                     TransportType = (int)order.TransportType,
                     DepartureDate = order.DepartureDate,
                     Email = System.Web.HttpContext.Current.User.Identity.Name
-                    //Price = 1232   
-                };//make business model for transport order price
+                };
 
                 orderService.OrderTransport(orderDto);
                 TempData["successful"] = string.Format("Спасибо, Ваш заказ успешно обработан.");

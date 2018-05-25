@@ -40,7 +40,7 @@ namespace BLL.Services
             {
                 DepartureDate = orderDTO.DepartureDate,
                 Email = orderDTO.Email,
-                Price = orderDTO.Price,
+                Price = orderDTO.TransportType * 300,
                 TransportType = orderDTO.TransportType
             };
             Database.TransportOrders.Insert(order);
