@@ -10,6 +10,7 @@ using Ninject;
 using Ninject.Modules;
 using Ninject.Web.Mvc;
 using BLL.Infrastructure;
+using TourAgency.App_Start;
 
 namespace TourAgency
 {
@@ -17,6 +18,7 @@ namespace TourAgency
     {
         protected void Application_Start()
         {
+            AutoMapperConfig.InitializeConfig();
             AreaRegistration.RegisterAllAreas();
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
