@@ -1,27 +1,3 @@
-<<<<<<< HEAD
-C:\Users\Vadim Coolik\source\repos\TourAgency\BLL\bin\Debug\BLL.dll.config
-C:\Users\Vadim Coolik\source\repos\TourAgency\BLL\bin\Debug\BLL.dll
-C:\Users\Vadim Coolik\source\repos\TourAgency\BLL\bin\Debug\BLL.pdb
-C:\Users\Vadim Coolik\source\repos\TourAgency\BLL\bin\Debug\AutoMapper.dll
-C:\Users\Vadim Coolik\source\repos\TourAgency\BLL\bin\Debug\DAL.dll
-C:\Users\Vadim Coolik\source\repos\TourAgency\BLL\bin\Debug\EntityFramework.dll
-C:\Users\Vadim Coolik\source\repos\TourAgency\BLL\bin\Debug\EntityFramework.SqlServer.dll
-C:\Users\Vadim Coolik\source\repos\TourAgency\BLL\bin\Debug\Microsoft.AspNet.Identity.Core.dll
-C:\Users\Vadim Coolik\source\repos\TourAgency\BLL\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
-C:\Users\Vadim Coolik\source\repos\TourAgency\BLL\bin\Debug\Ninject.dll
-C:\Users\Vadim Coolik\source\repos\TourAgency\BLL\bin\Debug\DAL.pdb
-C:\Users\Vadim Coolik\source\repos\TourAgency\BLL\bin\Debug\DAL.dll.config
-C:\Users\Vadim Coolik\source\repos\TourAgency\BLL\bin\Debug\AutoMapper.xml
-C:\Users\Vadim Coolik\source\repos\TourAgency\BLL\bin\Debug\EntityFramework.xml
-C:\Users\Vadim Coolik\source\repos\TourAgency\BLL\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\Vadim Coolik\source\repos\TourAgency\BLL\bin\Debug\Microsoft.AspNet.Identity.Core.xml
-C:\Users\Vadim Coolik\source\repos\TourAgency\BLL\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
-C:\Users\Vadim Coolik\source\repos\TourAgency\BLL\bin\Debug\Ninject.xml
-C:\Users\Vadim Coolik\source\repos\TourAgency\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
-C:\Users\Vadim Coolik\source\repos\TourAgency\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
-C:\Users\Vadim Coolik\source\repos\TourAgency\BLL\obj\Debug\BLL.dll
-C:\Users\Vadim Coolik\source\repos\TourAgency\BLL\obj\Debug\BLL.pdb
-=======
 C:\Users\Vadim Coolik\source\local\CourseWork\BLL\bin\Debug\BLL.dll.config
 C:\Users\Vadim Coolik\source\local\CourseWork\BLL\bin\Debug\BLL.dll
 C:\Users\Vadim Coolik\source\local\CourseWork\BLL\bin\Debug\BLL.pdb
@@ -44,4 +20,3 @@ C:\Users\Vadim Coolik\source\local\CourseWork\BLL\obj\Debug\BLL.csprojResolveAss
 C:\Users\Vadim Coolik\source\local\CourseWork\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
 C:\Users\Vadim Coolik\source\local\CourseWork\BLL\obj\Debug\BLL.dll
 C:\Users\Vadim Coolik\source\local\CourseWork\BLL\obj\Debug\BLL.pdb
->>>>>>> master
