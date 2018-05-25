@@ -259,10 +259,10 @@
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\HotelBooking\Index.cshtml" />
     <Content Include="Views\HotelBooking\MakeOrder.cshtml" />
+    <Content Include="Views\TransportBooking\MakeOrder.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Views\TransportBooking\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />

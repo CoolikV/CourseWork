@@ -21,6 +21,7 @@ namespace TourAgency.Controllers
             displayService = _displayService;
             orderService = _orderService;
         }
+
         [Authorize]
         public ActionResult MakeOrder(int? id)
         {
