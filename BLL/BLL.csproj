@@ -4,11 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-<<<<<<< HEAD
-    <ProjectGuid>{1210455E-FAEC-466A-B5CF-7E923DF1BF16}</ProjectGuid>
-=======
     <ProjectGuid>{C04481CC-CF92-420C-A2B4-EFC79156CC12}</ProjectGuid>
->>>>>>> master
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>BLL</RootNamespace>
@@ -69,23 +65,17 @@
     <Compile Include="DTO\HotelOrderDTO.cs" />
     <Compile Include="DTO\TourDTO.cs" />
     <Compile Include="DTO\TourOrderDTO.cs" />
-    <Compile Include="DTO\TransportDTO.cs" />
     <Compile Include="DTO\TransportOrderDTO.cs" />
     <Compile Include="DTO\UserDTO.cs" />
+    <Compile Include="Infrastructure\BLLMapperProfile.cs" />
     <Compile Include="Infrastructure\OperationDetails.cs" />
     <Compile Include="Infrastructure\ServiceModule.cs" />
     <Compile Include="Infrastructure\ValidationException.cs" />
     <Compile Include="Interfaces\IDisplayService.cs" />
     <Compile Include="Interfaces\IManagementService.cs" />
-<<<<<<< HEAD
-    <Compile Include="Interfaces\ITourOrderService.cs" />
-    <Compile Include="Interfaces\IOtherOrderService.cs" />
-    <Compile Include="Interfaces\IServiceCreator.cs" />
-=======
     <Compile Include="Interfaces\IOtherOrderService.cs" />
     <Compile Include="Interfaces\IServiceCreator.cs" />
     <Compile Include="Interfaces\ITourOrderService.cs" />
->>>>>>> master
     <Compile Include="Interfaces\IUserService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\DisplayService.cs" />
@@ -96,25 +86,14 @@
     <Compile Include="Services\UserService.cs" />
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD
-=======
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
->>>>>>> master
     <ProjectReference Include="..\DAL\DAL.csproj">
       <Project>{e9a6d17d-ca4a-44c4-82b6-880fdf24bd94}</Project>
       <Name>DAL</Name>
     </ProjectReference>
   </ItemGroup>
-<<<<<<< HEAD
-  <ItemGroup />
-  <ItemGroup>
-    <None Include="App.config" />
-    <None Include="packages.config" />
-  </ItemGroup>
-=======
->>>>>>> master
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
