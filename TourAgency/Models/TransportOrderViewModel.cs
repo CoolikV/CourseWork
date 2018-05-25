@@ -12,7 +12,12 @@ namespace TourAgency.Models
     public class TransportOrderViewModel
     {
         public string Email { get; set; }
+        [Required(ErrorMessage ="Укажите желаемый вид транспорта")]
+        [Display(Name ="Вид транспорта")]
         public TransportType TransportType { get; set; }
+        [Required(ErrorMessage = "Укажите дату отправления")]
+        [Display(Name = "Дата отправления")]
+        [DataType(DataType.Date)]
         public DateTime DepartureDate { get; set; }
     }
 }
