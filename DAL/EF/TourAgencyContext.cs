@@ -32,8 +32,8 @@ namespace DAL.EF
         {
             context.Tours.Add(new Tour { Name = "Test1", Country = "США", Price = 123, Region = "L.A. California", Date = new DateTime(2018,5,12), Type = "Горящий"});
             context.Tours.Add(new Tour { Name = "Test1", Country = "Уругвай", Price = 123, Region = "Тест", Date = DateTime.Today,  Type = "Екскурсия" });
-            context.Tours.Add(new Tour { Name = "Test1", Country = "Уругвай", Price = 123, Region = "Тест 2", Date = DateTime.Today,  Type = "Горящий" });
-            context.Tours.Add(new Tour { Name = "Test1", Country = "США", Price = 123, Region = "Маями", Date = DateTime.Today,  Type = "Екскурсия"});
+            context.Tours.Add(new Tour { Name = "Test", Country = "Уругвай", Price = 123, Region = "Тест 2", Date = DateTime.Today,  Type = "Горящий" });
+            context.Tours.Add(new Tour { Name = "What", Country = "США", Price = 123, Region = "Маями", Date = DateTime.Today,  Type = "Екскурсия"});
 
             context.Hotels.Add(new Hotel {  Name = "Name", Country = "USA", /*EntranceDate = DateTime.Today, EvictionDate = new DateTime(2018, 5, 15),*/ Stars = 5 });
             //насоздавать входных данных
