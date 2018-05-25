@@ -13,6 +13,8 @@ C:\Users\Vadim Coolik\source\repos\TourAgency\DAL\obj\Debug\DAL.csprojResolveAss
 C:\Users\Vadim Coolik\source\repos\TourAgency\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
 C:\Users\Vadim Coolik\source\repos\TourAgency\DAL\obj\Debug\DAL.dll
 C:\Users\Vadim Coolik\source\repos\TourAgency\DAL\obj\Debug\DAL.pdb
+<<<<<<< HEAD
+=======
 C:\Users\Vadim Coolik\source\local\CourseWork\DAL\bin\Debug\DAL.dll.config
 C:\Users\Vadim Coolik\source\local\CourseWork\DAL\bin\Debug\DAL.dll
 C:\Users\Vadim Coolik\source\local\CourseWork\DAL\bin\Debug\DAL.pdb
@@ -28,3 +30,4 @@ C:\Users\Vadim Coolik\source\local\CourseWork\DAL\obj\Debug\DAL.csprojResolveAss
 C:\Users\Vadim Coolik\source\local\CourseWork\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
 C:\Users\Vadim Coolik\source\local\CourseWork\DAL\obj\Debug\DAL.dll
 C:\Users\Vadim Coolik\source\local\CourseWork\DAL\obj\Debug\DAL.pdb
+>>>>>>> master

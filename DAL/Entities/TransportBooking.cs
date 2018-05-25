@@ -8,6 +8,8 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace DAL.Entities
 {
+    public enum TransportType { Авиаперелёт = 1, Автобус, Поезд, Паром }
+
     public class TransportBooking
     {
         [Key]
@@ -15,8 +17,7 @@ namespace DAL.Entities
         public decimal Sum { get; set; }
         public string Email { get; set; }
 
-        public int TransportId { get; set; }
-        private Transport Transport { get; set; }
+        public TransportType TransportType { get; set; }
 
         public DateTime Date { get; set; }
     }
