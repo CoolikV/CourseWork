@@ -7,10 +7,8 @@ using Moq;
 using BLL.Services;
 using DAL.Interfaces;
 using DAL.Entities;
-using TourAgency.App_Start;
 using NUnit.Framework;
 using BLL.DTO;
-using BLL.Interfaces;
 
 namespace BusinessLogicTests.Tests
 {

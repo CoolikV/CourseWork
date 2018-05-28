@@ -1,7 +1,7 @@
 .vs/
 *.ide
-bin/
-obj/
+bin/**
+obj/**
 .vs/CourseWork/v15/.suo
 *.cache
-Debug/
+Debug/**
