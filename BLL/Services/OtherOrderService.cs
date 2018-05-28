@@ -27,6 +27,9 @@ namespace BLL.Services
             Hotel hotel = Database.Hotels.GetByID(orderDTO.HotelId);
             if (hotel == null)
                 throw new ValidationException("Отель не найден", "");
+            if ((orderDTO.EvictionDate - orderDTO.EntranceDate).TotalDays <= 0)
+                throw new ValidationException("Проверьте правильность введённых дат", "");
+
             HotelBooking hotelBooking = Mapper.Map<HotelOrderDTO, HotelBooking>(orderDTO);
             hotelBooking.Sum = new Price(hotel.Stars, orderDTO.EvictionDate, orderDTO.EntranceDate).CalculatePrice();
 
