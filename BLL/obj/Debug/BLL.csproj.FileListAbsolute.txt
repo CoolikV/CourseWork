@@ -20,3 +20,26 @@ C:\Users\Vadim Coolik\source\local\CourseWork\BLL\obj\Debug\BLL.csprojResolveAss
 C:\Users\Vadim Coolik\source\local\CourseWork\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
 C:\Users\Vadim Coolik\source\local\CourseWork\BLL\obj\Debug\BLL.dll
 C:\Users\Vadim Coolik\source\local\CourseWork\BLL\obj\Debug\BLL.pdb
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BLL\bin\Debug\BLL.dll.config
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BLL\bin\Debug\BLL.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BLL\bin\Debug\BLL.pdb
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BLL\bin\Debug\AutoMapper.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BLL\bin\Debug\DAL.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BLL\bin\Debug\EntityFramework.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BLL\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BLL\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BLL\bin\Debug\Ninject.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BLL\bin\Debug\DAL.pdb
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BLL\bin\Debug\DAL.dll.config
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BLL\bin\Debug\AutoMapper.xml
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BLL\bin\Debug\EntityFramework.xml
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BLL\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BLL\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BLL\bin\Debug\Ninject.xml
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BLL\obj\Debug\BLL.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BLL\obj\Debug\BLL.pdb
