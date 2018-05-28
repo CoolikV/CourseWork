@@ -26,7 +26,7 @@ namespace TourAgency
 
             // внедрение зависимостей
             NinjectModule modules = new AppModule();
-            NinjectModule serviceModule = new ServiceModule("AgencyDatabase");
+            NinjectModule serviceModule = new ServiceModule("NewNameForAgencyDatabase");
 
             var kernel = new StandardKernel(modules, serviceModule);
             DependencyResolver.SetResolver(new NinjectDependencyResolver(kernel));
