@@ -29,7 +29,7 @@ namespace TourAgency.App_Start
         private IUserService CreateUserService()
         {
             serviceCreator = new ServiceCreator();
-            return serviceCreator.CreateUserService("AgencyDatabase");
+            return serviceCreator.CreateUserService("NewNameForAgencyDatabase");
         }
     }
 }
