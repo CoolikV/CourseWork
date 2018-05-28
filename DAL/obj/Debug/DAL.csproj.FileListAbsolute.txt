@@ -27,3 +27,4 @@ C:\Users\Vadim Coolik\source\local\CourseWork\DAL\bin\Debug\Microsoft.AspNet.Ide
 C:\Users\Vadim Coolik\source\local\CourseWork\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
 C:\Users\Vadim Coolik\source\local\CourseWork\DAL\obj\Debug\DAL.dll
 C:\Users\Vadim Coolik\source\local\CourseWork\DAL\obj\Debug\DAL.pdb
+C:\Users\Vadim Coolik\source\local\CourseWork\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
