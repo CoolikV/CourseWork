@@ -7,6 +7,8 @@ using DAL.Interfaces;
 using DAL.Entities;
 using TourAgency.App_Start;
 using NUnit.Framework;
+using BLL.Infrastructure;
+
 namespace BusinessLogicTests
 {
     [TestFixture]
@@ -71,8 +73,6 @@ namespace BusinessLogicTests
             //Arrange
             var toursDbMock = new Mock<IRepository<Tour>>();
             toursDbMock.Setup(a => a.GetByID(2)).Returns(new Tour { Id = 2 });
-            toursDbMock.Setup(a => a.GetByID(It.Is<int>(i => i < 0))).Throws<ArgumentException>();
-            toursDbMock.Setup(a => a.GetByID(It.Is<int?>(i => i == null))).Throws<ArgumentNullException>();
 
             var uowMock = new Mock<IUnitOfWork>();
             uowMock.Setup(uow => uow.Tours).Returns(toursDbMock.Object);
@@ -84,6 +84,8 @@ namespace BusinessLogicTests
 
             //Assert
             Assert.AreEqual(2, actual);
+            Assert.Throws<ValidationException>(() => service.GetTour(3));
+            Assert.Throws<ValidationException>(() => service.GetTour(null));
         }
 
         [Test]
@@ -92,7 +94,6 @@ namespace BusinessLogicTests
             //Arrange
             var hotelsDbMock = new Mock<IRepository<Hotel>>();
             hotelsDbMock.Setup(a => a.GetByID(1)).Returns(new Hotel { Id = 1 });
-            hotelsDbMock.Setup(a => a.GetByID(It.Is<int>(i => i != 1))).Throws<NullReferenceException>();
 
             var uowMock = new Mock<IUnitOfWork>();
             uowMock.Setup(uow => uow.Hotels).Returns(hotelsDbMock.Object);
@@ -103,14 +104,14 @@ namespace BusinessLogicTests
 
             //Assert
             Assert.AreEqual(1, actual);
+            Assert.Throws<ValidationException>(() => service.GetHotel(3));
+            Assert.Throws<ValidationException>(() => service.GetHotel(null));
         }
 
         [Test]
         public void GetCountriesTest()
         {
             //Arrange
-            //AutoMapperConfig.InitializeConfig();
-
             var toursDbMock = new Mock<IRepository<Tour>>();
             toursDbMock.Setup(a => a.Get(null, null, "")).Returns(new List<Tour>()
             {
@@ -158,7 +159,6 @@ namespace BusinessLogicTests
         public void FindTour_Returns_0_Test()
         {
             //Arrange
-           // AutoMapperConfig.InitializeConfig();
 
             var toursDbMock = new Mock<IRepository<Tour>>();
             toursDbMock.Setup(a => a.Get(t => t.Name == "Name2", null, "")).Returns(new List<Tour>()

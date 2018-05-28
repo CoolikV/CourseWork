@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using BLL.DTO;
+
 namespace BLL.BusinessModels
 {
     public class Price
