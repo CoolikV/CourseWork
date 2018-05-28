@@ -21,7 +21,6 @@ namespace BusinessLogicTests
         public void GetAllHotelsTest()
         {
             //Arrange
-            AutoMapperConfig.InitializeConfig();
 
             var hotelsDbMock = new Mock<IRepository<Hotel>>();
             hotelsDbMock.Setup(a => a.Get(null, null, "")).Returns(new List<Hotel>()
@@ -101,10 +100,9 @@ namespace BusinessLogicTests
 
             //Act
             var actual = service.GetHotel(1).Id;
-            var exception = service.GetHotel(2);
+
             //Assert
             Assert.AreEqual(1, actual);
-            Assert.Throws(typeof(NullReferenceException), GetHotelByIdTest);//как проверять исключения?
         }
 
         [Test]
@@ -136,7 +134,6 @@ namespace BusinessLogicTests
         public void GetRegionsTest()
         {
             //Arrange
-            //AutoMapperConfig.InitializeConfig();
 
             var toursDbMock = new Mock<IRepository<Tour>>();
             toursDbMock.Setup(a => a.Get(null, null, "")).Returns(new List<Tour>()
@@ -155,6 +152,29 @@ namespace BusinessLogicTests
 
             //Assert
             Assert.AreEqual(new List<string>() { "Все", "Gondurasij", "Nigerijskij" }, actual);
+        }
+
+        [Test]
+        public void FindTour_Returns_0_Test()
+        {
+            //Arrange
+            AutoMapperConfig.InitializeConfig();
+
+            var toursDbMock = new Mock<IRepository<Tour>>();
+            toursDbMock.Setup(a => a.Get(t => t.Name == "Name2", null, "")).Returns(new List<Tour>()
+            {
+                new Tour { Id = 1, Name = "Name2"},
+                new Tour { Id = 2, Name = "Name2"}
+            });
+            var uowMock = new Mock<IUnitOfWork>();
+            uowMock.Setup(uow => uow.Tours).Returns(toursDbMock.Object);
+
+            var display = new DisplayService(uowMock.Object);
+            //Act
+            var actual_1 = display.FindTour("Name1");
+
+            //Assert
+            Assert.AreEqual(0, actual_1.Count());
         }
     }
 }
