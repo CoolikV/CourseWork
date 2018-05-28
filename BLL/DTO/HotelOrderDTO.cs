@@ -10,7 +10,6 @@ namespace BLL.DTO
 {
     public class HotelOrderDTO
     {
-        public int Id { get; set; }
         public int HotelId { get; set; }
         public DateTime EntranceDate { get; set; }
         public DateTime EvictionDate { get; set; }

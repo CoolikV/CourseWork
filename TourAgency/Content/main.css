@@ -16,6 +16,7 @@ text-align: center;
 .card__button {
 	text-decoration: none;
 	color: #000;
+    position:relative;
 }
 .card a {
 	text-decoration: none;

@@ -28,6 +28,8 @@
         <div class="card__price">
             @Html.DisplayFor(modelItem => item.Price)
         </div>
-        @Html.ActionLink("Заказать", "MakeOrder", new { id = item.Id })
+        <div class="card__button">
+            @Html.ActionLink("Заказать", "MakeOrder", new { id = item.Id })
+        </div>
     </div>
  }   

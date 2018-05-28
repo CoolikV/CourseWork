@@ -60,7 +60,6 @@
     <Compile Include="Entities\HotelBooking.cs" />
     <Compile Include="Entities\Tour.cs" />
     <Compile Include="Entities\TourBooking.cs" />
-    <Compile Include="Entities\Transport.cs" />
     <Compile Include="Entities\TransportBooking.cs" />
     <Compile Include="Entities\UserRole.cs" />
     <Compile Include="Identity\UserManager.cs" />
@@ -71,12 +70,7 @@
     <Compile Include="Interfaces\IRepository.cs" />
     <Compile Include="Repositories\ClientManager.cs" />
     <Compile Include="Repositories\EFUnitOfWork.cs" />
-    <Compile Include="Repositories\HotelBookingRepos.cs" />
-    <Compile Include="Repositories\HotelRepository.cs" />
-    <Compile Include="Repositories\TourBookingRepos.cs" />
-    <Compile Include="Repositories\TourRepository.cs" />
-    <Compile Include="Repositories\TransportBookingRepos.cs" />
-    <Compile Include="Repositories\TransportRepository.cs" />
+    <Compile Include="Repositories\GenericRepository.cs" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

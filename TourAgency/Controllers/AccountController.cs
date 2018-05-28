@@ -93,7 +93,7 @@ namespace TourAgency.Controllers
                 if (operationDetails.Succedeed)
                 {
                     TempData["successful"] = string.Format("Вас успешно зарегистрировано");
-                    return RedirectToAction("Index", "Home"); //View("SuccessRegister");
+                    return RedirectToAction("Index", "Home");
                 }
                 else
                     ModelState.AddModelError(operationDetails.Property, operationDetails.Message);

@@ -26,8 +26,8 @@ namespace TourAgency.Controllers
         public ActionResult Index()
         {
             var hotelDtos = displayService.GetAllHotels();
-            var mapper = new MapperConfiguration(cfg => cfg.CreateMap<HotelDTO, HotelViewModel>()).CreateMapper();
-            var hotels = mapper.Map<IEnumerable<HotelDTO>, List<HotelViewModel>>(hotelDtos);
+
+            var hotels = Mapper.Map<IEnumerable<HotelDTO>, List<HotelViewModel>>(hotelDtos);
 
             return View(hotels);
         }
@@ -38,7 +38,12 @@ namespace TourAgency.Controllers
             try
             {
                 HotelDTO hotel = displayService.GetHotel(id.Value);
-                var order = new HotelOrderViewModel { HotelId = hotel.Id, Email = System.Web.HttpContext.Current.User.Identity.Name, Hotel = hotel };
+                var order = new HotelOrderViewModel
+                {
+                    HotelId = hotel.Id,
+                    Email = System.Web.HttpContext.Current.User.Identity.Name,
+                    Hotel = hotel,
+                };
 
                 return View(order);
             }
@@ -53,7 +58,8 @@ namespace TourAgency.Controllers
         {
             try
             {
-                var orderDto = new HotelOrderDTO { HotelId = order.HotelId, Date = DateTime.Now, Email = order.Email, EntranceDate = order.EntranceDate, EvictionDate = order.EvictionDate };
+                var orderDto = Mapper.Map<HotelOrderDTO>(order);
+                orderDto.Date = DateTime.Now;
                 orderService.OrderHotel(orderDto);
                 TempData["successful"] = string.Format("Спасибо, Ваш заказ успешно обработан.");
                 return RedirectToAction("Index");

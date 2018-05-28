@@ -21,24 +21,13 @@ namespace TourAgency.Controllers
             displayService = _displayService;
             orderService = _orderService;
         }
-        [AllowAnonymous]
-        public ActionResult Index()
-        {
-            var transportDtos = displayService.GetAllTransport();
-            var mapper = new MapperConfiguration(cfg => cfg.CreateMap<TransportDTO, TransportViewModel>()).CreateMapper();
-            var transport = mapper.Map<IEnumerable<TransportDTO>, List<TransportViewModel>>(transportDtos);
-
-            return View(transport);
-        }
 
         [Authorize]
-        public ActionResult MakeOrder(int? id)
+        public ActionResult MakeOrder()
         {
             try
             {
-                TransportDTO transport = displayService.GetTransport(id.Value);
-                var order = new TransportOrderViewModel { TransportId = transport.Id, Email = System.Web.HttpContext.Current.User.Identity.Name, Transport = transport };
-                return View(order);
+                return View(new TransportOrderViewModel());
             }
             catch(ValidationException ex)
             {
@@ -51,10 +40,15 @@ namespace TourAgency.Controllers
         {
             try
             {
-                var orderDto = new TransportOrderDTO { TransportId = order.TransportId, Date = DateTime.Now, Email = order.Email };
+                var orderDto = new TransportOrderDTO {
+                    TransportType = (int)order.TransportType,
+                    DepartureDate = order.DepartureDate,
+                    Email = System.Web.HttpContext.Current.User.Identity.Name
+                };
+
                 orderService.OrderTransport(orderDto);
                 TempData["successful"] = string.Format("Спасибо, Ваш заказ успешно обработан.");
-                return RedirectToAction("Index");
+                return RedirectToAction("Index", "Home");
             }
             catch (ValidationException ex)
             {

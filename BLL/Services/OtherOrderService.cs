@@ -24,37 +24,26 @@ namespace BLL.Services
 
         public void OrderHotel(HotelOrderDTO orderDTO)
         {
-            Hotel hotel = Database.Hotels.Get(orderDTO.HotelId);
+            Hotel hotel = Database.Hotels.GetByID(orderDTO.HotelId);
             if (hotel == null)
                 throw new ValidationException("Отель не найден", "");
+            HotelBooking hotelBooking = Mapper.Map<HotelOrderDTO, HotelBooking>(orderDTO);
+            hotelBooking.Sum = new Price(hotel.Stars, orderDTO.EvictionDate, orderDTO.EntranceDate).CalculatePrice();
 
-            HotelBooking order = new HotelBooking
-            {
-                Date = DateTime.Now,
-                Email = orderDTO.Email,
-                Sum = new Price(hotel.Stars, orderDTO.EvictionDate, orderDTO.EntranceDate).CalculatePrice(),
-                HotelId = orderDTO.HotelId
-            };
-
-            Database.HotelOrders.Create(order);
+            Database.HotelOrders.Insert(hotelBooking);
             Database.Save();
         }
 
         public void OrderTransport(TransportOrderDTO orderDTO)
         {
-            Transport transport = Database.Transport.Get(orderDTO.TransportId);
-
-            if (transport == null)
-                throw new ValidationException("Транспорт не найден", "");
-
             TransportBooking order = new TransportBooking
             {
-                Date = DateTime.Now,
+                DepartureDate = orderDTO.DepartureDate,
                 Email = orderDTO.Email,
-                Sum = transport.Price,
-                TransportId = orderDTO.TransportId
+                Price = orderDTO.TransportType * 300,
+                TransportType = orderDTO.TransportType
             };
-            Database.TransportOrders.Create(order);
+            Database.TransportOrders.Insert(order);
             Database.Save();
         }
 

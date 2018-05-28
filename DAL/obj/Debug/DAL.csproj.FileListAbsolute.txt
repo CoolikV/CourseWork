@@ -24,7 +24,23 @@ C:\Users\Vadim Coolik\source\local\CourseWork\DAL\bin\Debug\EntityFramework.xml
 C:\Users\Vadim Coolik\source\local\CourseWork\DAL\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\Vadim Coolik\source\local\CourseWork\DAL\bin\Debug\Microsoft.AspNet.Identity.Core.xml
 C:\Users\Vadim Coolik\source\local\CourseWork\DAL\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
-C:\Users\Vadim Coolik\source\local\CourseWork\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
 C:\Users\Vadim Coolik\source\local\CourseWork\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
 C:\Users\Vadim Coolik\source\local\CourseWork\DAL\obj\Debug\DAL.dll
 C:\Users\Vadim Coolik\source\local\CourseWork\DAL\obj\Debug\DAL.pdb
+C:\Users\Vadim Coolik\source\local\CourseWork\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\DAL\bin\Debug\DAL.dll.config
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\DAL\bin\Debug\DAL.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\DAL\bin\Debug\DAL.pdb
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\DAL\bin\Debug\EntityFramework.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\DAL\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\DAL\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\DAL\bin\Debug\EntityFramework.xml
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\DAL\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\DAL\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\DAL\obj\Debug\DAL.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\DAL\obj\Debug\DAL.pdb

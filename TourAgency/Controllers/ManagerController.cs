@@ -25,10 +25,8 @@ namespace TourAgency.Controllers
         public ActionResult Index()
         {
             IEnumerable<TourDTO> tourDtos = displayService.GetAllTours();
-            var mapper = new MapperConfiguration(cfg => cfg.CreateMap<TourDTO, TourViewModel>()).CreateMapper();
-            var tours = mapper.Map<IEnumerable<TourDTO>, List<TourViewModel>>(tourDtos);
 
-            return View(tours);
+            return View(Mapper.Map<IEnumerable<TourDTO>, List<TourViewModel>>(tourDtos));
         }
 
         public ActionResult EditTour(int? id)
@@ -36,9 +34,8 @@ namespace TourAgency.Controllers
             try
             {
                 TourDTO tour = displayService.GetTour(id);
-                var mapper = new MapperConfiguration(cfg => cfg.CreateMap<TourDTO, TourViewModel>()).CreateMapper();
-                var toEdit = mapper.Map<TourDTO, TourViewModel>(tour);
-                return View(toEdit);
+
+                return View(Mapper.Map<TourDTO, TourViewModel>(tour));
             }
             catch (ValidationException ex)
             {
@@ -52,13 +49,11 @@ namespace TourAgency.Controllers
             try
             {
                 if (ModelState.IsValid)
-                {
-                    var mapper = new MapperConfiguration(cfg => cfg.CreateMap<TourViewModel, TourDTO>()).CreateMapper();
-                    var tourDto = mapper.Map<TourDTO>(tour);
-                   
-                    managementService.EditTour(tourDto);
+                {                   
+                    managementService.EditTour(Mapper.Map<TourDTO>(tour));
+
                     TempData["successful"] = string.Format("Изменения в туре \"{0}\" были сохранены", tour.Name);
-                    return RedirectToAction("Index", "Manager");//return View("SuccessfulEditing");
+                    return RedirectToAction("Index", "Manager");
                 }
                 return View(tour);
             }
@@ -74,24 +69,16 @@ namespace TourAgency.Controllers
             return View(new TourViewModel());
         }
         [HttpPost]
-        public ActionResult CreateTour(TourViewModel newTour, string type)
+        public ActionResult CreateTour(TourViewModel newTour)
         {
             try
             {
                 if (ModelState.IsValid)
                 {
-                    var tourDto = new TourDTO
-                    {
-                        Date = newTour.Date,
-                        Country = newTour.Country,
-                        Name = newTour.Name,
-                        Price = newTour.Price,
-                        Region = newTour.Region,
-                        Type = type
-                    };
+                    var tourDto = Mapper.Map<TourDTO>(newTour);
                     managementService.AddTour(tourDto);
                     TempData["successful"] = string.Format("Новый тур \"{0}\" был добавлен", newTour.Name);
-                    return RedirectToAction("Index", "Manager");//return View("SuccessfulAdding");
+                    return RedirectToAction("Index", "Manager");
                 }
             }
             catch (ValidationException ex)

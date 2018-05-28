@@ -23,14 +23,19 @@ namespace TourAgency.Controllers// сделать окно для поиска �
         }
 
         [AllowAnonymous]
-        public ActionResult Index()
+        public ActionResult Index(string searchString)
         {
             IEnumerable<TourDTO> tourDtos = displayService.GetAllTours();
+            if (!String.IsNullOrEmpty(searchString))
+            {
+                tourDtos = displayService.FindTour(searchString);
+            }
             var mapper = new MapperConfiguration(cfg => cfg.CreateMap<TourDTO, TourViewModel>()).CreateMapper();
             var tours = mapper.Map<IEnumerable<TourDTO>, List<TourViewModel>>(tourDtos);
 
             return View(tours);
         }
+       
         [AllowAnonymous]
         public ActionResult Filter(string country, string region,string type)
         {
@@ -93,6 +98,13 @@ namespace TourAgency.Controllers// сделать окно для поиска �
                 ModelState.AddModelError(ex.Property, ex.Message);
             }
             return View(order);
+        }
+
+        [HttpGet]
+        public ActionResult Search(string name)
+        {
+            IEnumerable<TourDTO> searchResults = displayService.FindTour(name);
+            return RedirectToAction("Index", searchResults);
         }
 
         protected override void Dispose(bool disposing)

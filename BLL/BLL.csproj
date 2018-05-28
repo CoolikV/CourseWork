@@ -65,7 +65,6 @@
     <Compile Include="DTO\HotelOrderDTO.cs" />
     <Compile Include="DTO\TourDTO.cs" />
     <Compile Include="DTO\TourOrderDTO.cs" />
-    <Compile Include="DTO\TransportDTO.cs" />
     <Compile Include="DTO\TransportOrderDTO.cs" />
     <Compile Include="DTO\UserDTO.cs" />
     <Compile Include="Infrastructure\BLLMapperProfile.cs" />

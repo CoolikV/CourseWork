@@ -1,0 +1,181 @@
+C:\Users\Vadim Coolik\source\local\CourseWork\BusinessLogicTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Vadim Coolik\source\local\CourseWork\BusinessLogicTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Vadim Coolik\source\local\CourseWork\BusinessLogicTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Vadim Coolik\source\local\CourseWork\BusinessLogicTests\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+C:\Users\Vadim Coolik\source\local\CourseWork\BusinessLogicTests\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+C:\Users\Vadim Coolik\source\local\CourseWork\BusinessLogicTests\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\Users\Vadim Coolik\source\local\CourseWork\BusinessLogicTests\bin\Debug\BusinessLogicTests.dll
+C:\Users\Vadim Coolik\source\local\CourseWork\BusinessLogicTests\bin\Debug\BusinessLogicTests.pdb
+C:\Users\Vadim Coolik\source\local\CourseWork\BusinessLogicTests\bin\Debug\BLL.dll
+C:\Users\Vadim Coolik\source\local\CourseWork\BusinessLogicTests\bin\Debug\Castle.Core.dll
+C:\Users\Vadim Coolik\source\local\CourseWork\BusinessLogicTests\bin\Debug\DAL.dll
+C:\Users\Vadim Coolik\source\local\CourseWork\BusinessLogicTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\Vadim Coolik\source\local\CourseWork\BusinessLogicTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\Vadim Coolik\source\local\CourseWork\BusinessLogicTests\bin\Debug\Moq.dll
+C:\Users\Vadim Coolik\source\local\CourseWork\BusinessLogicTests\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Vadim Coolik\source\local\CourseWork\BusinessLogicTests\bin\Debug\System.ValueTuple.dll
+C:\Users\Vadim Coolik\source\local\CourseWork\BusinessLogicTests\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Vadim Coolik\source\local\CourseWork\BusinessLogicTests\bin\Debug\AutoMapper.dll
+C:\Users\Vadim Coolik\source\local\CourseWork\BusinessLogicTests\bin\Debug\Ninject.dll
+C:\Users\Vadim Coolik\source\local\CourseWork\BusinessLogicTests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Vadim Coolik\source\local\CourseWork\BusinessLogicTests\bin\Debug\EntityFramework.dll
+C:\Users\Vadim Coolik\source\local\CourseWork\BusinessLogicTests\bin\Debug\BLL.pdb
+C:\Users\Vadim Coolik\source\local\CourseWork\BusinessLogicTests\bin\Debug\BLL.dll.config
+C:\Users\Vadim Coolik\source\local\CourseWork\BusinessLogicTests\bin\Debug\DAL.pdb
+C:\Users\Vadim Coolik\source\local\CourseWork\BusinessLogicTests\bin\Debug\DAL.dll.config
+C:\Users\Vadim Coolik\source\local\CourseWork\BusinessLogicTests\bin\Debug\Castle.Core.xml
+C:\Users\Vadim Coolik\source\local\CourseWork\BusinessLogicTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\Vadim Coolik\source\local\CourseWork\BusinessLogicTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\Vadim Coolik\source\local\CourseWork\BusinessLogicTests\bin\Debug\Moq.pdb
+C:\Users\Vadim Coolik\source\local\CourseWork\BusinessLogicTests\bin\Debug\Moq.xml
+C:\Users\Vadim Coolik\source\local\CourseWork\BusinessLogicTests\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Vadim Coolik\source\local\CourseWork\BusinessLogicTests\bin\Debug\System.ValueTuple.xml
+C:\Users\Vadim Coolik\source\local\CourseWork\BusinessLogicTests\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Vadim Coolik\source\local\CourseWork\BusinessLogicTests\bin\Debug\AutoMapper.xml
+C:\Users\Vadim Coolik\source\local\CourseWork\BusinessLogicTests\bin\Debug\Ninject.xml
+C:\Users\Vadim Coolik\source\local\CourseWork\BusinessLogicTests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Vadim Coolik\source\local\CourseWork\BusinessLogicTests\bin\Debug\EntityFramework.xml
+C:\Users\Vadim Coolik\source\local\CourseWork\BusinessLogicTests\obj\Debug\BusinessLogicTests.csprojResolveAssemblyReference.cache
+C:\Users\Vadim Coolik\source\local\CourseWork\BusinessLogicTests\obj\Debug\BusinessLogicTests.csproj.CoreCompileInputs.cache
+C:\Users\Vadim Coolik\source\local\CourseWork\BusinessLogicTests\obj\Debug\BusinessLogicTests.dll
+C:\Users\Vadim Coolik\source\local\CourseWork\BusinessLogicTests\obj\Debug\BusinessLogicTests.pdb
+C:\Users\Vadim Coolik\source\local\CourseWork\BusinessLogicTests\bin\Debug\ApplicationInsights.config
+C:\Users\Vadim Coolik\source\local\CourseWork\BusinessLogicTests\bin\Debug\BusinessLogicTests.dll.config
+C:\Users\Vadim Coolik\source\local\CourseWork\BusinessLogicTests\bin\Debug\TourAgency.dll
+C:\Users\Vadim Coolik\source\local\CourseWork\BusinessLogicTests\bin\Debug\Microsoft.Owin.dll
+C:\Users\Vadim Coolik\source\local\CourseWork\BusinessLogicTests\bin\Debug\System.Web.Optimization.dll
+C:\Users\Vadim Coolik\source\local\CourseWork\BusinessLogicTests\bin\Debug\System.Web.Mvc.dll
+C:\Users\Vadim Coolik\source\local\CourseWork\BusinessLogicTests\bin\Debug\Owin.dll
+C:\Users\Vadim Coolik\source\local\CourseWork\BusinessLogicTests\bin\Debug\Ninject.Web.Mvc.dll
+C:\Users\Vadim Coolik\source\local\CourseWork\BusinessLogicTests\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Vadim Coolik\source\local\CourseWork\BusinessLogicTests\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Vadim Coolik\source\local\CourseWork\BusinessLogicTests\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Vadim Coolik\source\local\CourseWork\BusinessLogicTests\bin\Debug\Microsoft.Owin.Security.dll
+C:\Users\Vadim Coolik\source\local\CourseWork\BusinessLogicTests\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\Vadim Coolik\source\local\CourseWork\BusinessLogicTests\bin\Debug\System.Web.Razor.dll
+C:\Users\Vadim Coolik\source\local\CourseWork\BusinessLogicTests\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\Vadim Coolik\source\local\CourseWork\BusinessLogicTests\bin\Debug\System.Web.WebPages.dll
+C:\Users\Vadim Coolik\source\local\CourseWork\BusinessLogicTests\bin\Debug\Ninject.Web.Common.dll
+C:\Users\Vadim Coolik\source\local\CourseWork\BusinessLogicTests\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Vadim Coolik\source\local\CourseWork\BusinessLogicTests\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\Vadim Coolik\source\local\CourseWork\BusinessLogicTests\bin\Debug\TourAgency.pdb
+C:\Users\Vadim Coolik\source\local\CourseWork\BusinessLogicTests\bin\Debug\TourAgency.dll.config
+C:\Users\Vadim Coolik\source\local\CourseWork\BusinessLogicTests\bin\Debug\Microsoft.Owin.xml
+C:\Users\Vadim Coolik\source\local\CourseWork\BusinessLogicTests\bin\Debug\System.Web.Optimization.xml
+C:\Users\Vadim Coolik\source\local\CourseWork\BusinessLogicTests\bin\Debug\System.Web.Mvc.xml
+C:\Users\Vadim Coolik\source\local\CourseWork\BusinessLogicTests\bin\Debug\Ninject.Web.Mvc.xml
+C:\Users\Vadim Coolik\source\local\CourseWork\BusinessLogicTests\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Vadim Coolik\source\local\CourseWork\BusinessLogicTests\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Vadim Coolik\source\local\CourseWork\BusinessLogicTests\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Vadim Coolik\source\local\CourseWork\BusinessLogicTests\bin\Debug\Microsoft.Owin.Security.xml
+C:\Users\Vadim Coolik\source\local\CourseWork\BusinessLogicTests\bin\Debug\System.Web.Razor.xml
+C:\Users\Vadim Coolik\source\local\CourseWork\BusinessLogicTests\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\Vadim Coolik\source\local\CourseWork\BusinessLogicTests\bin\Debug\System.Web.WebPages.xml
+C:\Users\Vadim Coolik\source\local\CourseWork\BusinessLogicTests\bin\Debug\Ninject.Web.Common.xml
+C:\Users\Vadim Coolik\source\local\CourseWork\BusinessLogicTests\bin\Debug\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Vadim Coolik\source\local\CourseWork\BusinessLogicTests\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\Vadim Coolik\source\local\CourseWork\BusinessLogicTests\bin\Debug\ru\System.Web.Optimization.resources.dll
+C:\Users\Vadim Coolik\source\local\CourseWork\BusinessLogicTests\bin\Debug\ru\System.Web.Mvc.resources.dll
+C:\Users\Vadim Coolik\source\local\CourseWork\BusinessLogicTests\bin\Debug\ru\System.Web.Razor.resources.dll
+C:\Users\Vadim Coolik\source\local\CourseWork\BusinessLogicTests\bin\Debug\ru\System.Web.WebPages.Razor.resources.dll
+C:\Users\Vadim Coolik\source\local\CourseWork\BusinessLogicTests\bin\Debug\ru\System.Web.WebPages.resources.dll
+C:\Users\Vadim Coolik\source\local\CourseWork\BusinessLogicTests\bin\Debug\ru\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Vadim Coolik\source\local\CourseWork\BusinessLogicTests\bin\Debug\NUnit3.TestAdapter.dll
+C:\Users\Vadim Coolik\source\local\CourseWork\BusinessLogicTests\bin\Debug\NUnit3.TestAdapter.pdb
+C:\Users\Vadim Coolik\source\local\CourseWork\BusinessLogicTests\bin\Debug\nunit.engine.dll
+C:\Users\Vadim Coolik\source\local\CourseWork\BusinessLogicTests\bin\Debug\nunit.engine.api.dll
+C:\Users\Vadim Coolik\source\local\CourseWork\BusinessLogicTests\bin\Debug\Mono.Cecil.dll
+C:\Users\Vadim Coolik\source\local\CourseWork\BusinessLogicTests\bin\Debug\nunit.framework.dll
+C:\Users\Vadim Coolik\source\local\CourseWork\BusinessLogicTests\bin\Debug\nunit.framework.pdb
+C:\Users\Vadim Coolik\source\local\CourseWork\BusinessLogicTests\bin\Debug\nunit.framework.xml
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BusinessLogicTests\bin\Debug\ApplicationInsights.config
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BusinessLogicTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BusinessLogicTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BusinessLogicTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BusinessLogicTests\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BusinessLogicTests\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BusinessLogicTests\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BusinessLogicTests\bin\Debug\NUnit3.TestAdapter.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BusinessLogicTests\bin\Debug\NUnit3.TestAdapter.pdb
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BusinessLogicTests\bin\Debug\nunit.engine.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BusinessLogicTests\bin\Debug\nunit.engine.api.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BusinessLogicTests\bin\Debug\Mono.Cecil.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BusinessLogicTests\bin\Debug\BusinessLogicTests.dll.config
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BusinessLogicTests\bin\Debug\BusinessLogicTests.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BusinessLogicTests\bin\Debug\BusinessLogicTests.pdb
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BusinessLogicTests\bin\Debug\AutoMapper.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BusinessLogicTests\bin\Debug\BLL.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BusinessLogicTests\bin\Debug\Castle.Core.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BusinessLogicTests\bin\Debug\DAL.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BusinessLogicTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BusinessLogicTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BusinessLogicTests\bin\Debug\Moq.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BusinessLogicTests\bin\Debug\nunit.framework.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BusinessLogicTests\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BusinessLogicTests\bin\Debug\System.ValueTuple.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BusinessLogicTests\bin\Debug\TourAgency.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BusinessLogicTests\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BusinessLogicTests\bin\Debug\Ninject.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BusinessLogicTests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BusinessLogicTests\bin\Debug\EntityFramework.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BusinessLogicTests\bin\Debug\Microsoft.Owin.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BusinessLogicTests\bin\Debug\System.Web.Optimization.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BusinessLogicTests\bin\Debug\System.Web.Mvc.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BusinessLogicTests\bin\Debug\Owin.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BusinessLogicTests\bin\Debug\Ninject.Web.Mvc.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BusinessLogicTests\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BusinessLogicTests\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BusinessLogicTests\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BusinessLogicTests\bin\Debug\Microsoft.Owin.Security.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BusinessLogicTests\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BusinessLogicTests\bin\Debug\System.Web.Razor.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BusinessLogicTests\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BusinessLogicTests\bin\Debug\System.Web.WebPages.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BusinessLogicTests\bin\Debug\Ninject.Web.Common.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BusinessLogicTests\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BusinessLogicTests\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BusinessLogicTests\bin\Debug\BLL.pdb
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BusinessLogicTests\bin\Debug\BLL.dll.config
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BusinessLogicTests\bin\Debug\DAL.pdb
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BusinessLogicTests\bin\Debug\DAL.dll.config
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BusinessLogicTests\bin\Debug\TourAgency.pdb
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BusinessLogicTests\bin\Debug\TourAgency.dll.config
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BusinessLogicTests\bin\Debug\AutoMapper.xml
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BusinessLogicTests\bin\Debug\Castle.Core.xml
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BusinessLogicTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BusinessLogicTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BusinessLogicTests\bin\Debug\Moq.pdb
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BusinessLogicTests\bin\Debug\Moq.xml
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BusinessLogicTests\bin\Debug\nunit.framework.pdb
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BusinessLogicTests\bin\Debug\nunit.framework.xml
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BusinessLogicTests\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BusinessLogicTests\bin\Debug\System.ValueTuple.xml
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BusinessLogicTests\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BusinessLogicTests\bin\Debug\Ninject.xml
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BusinessLogicTests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BusinessLogicTests\bin\Debug\EntityFramework.xml
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BusinessLogicTests\bin\Debug\Microsoft.Owin.xml
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BusinessLogicTests\bin\Debug\System.Web.Optimization.xml
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BusinessLogicTests\bin\Debug\System.Web.Mvc.xml
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BusinessLogicTests\bin\Debug\Ninject.Web.Mvc.xml
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BusinessLogicTests\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BusinessLogicTests\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BusinessLogicTests\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BusinessLogicTests\bin\Debug\Microsoft.Owin.Security.xml
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BusinessLogicTests\bin\Debug\System.Web.Razor.xml
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BusinessLogicTests\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BusinessLogicTests\bin\Debug\System.Web.WebPages.xml
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BusinessLogicTests\bin\Debug\Ninject.Web.Common.xml
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BusinessLogicTests\bin\Debug\Microsoft.Owin.Security.OAuth.xml
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BusinessLogicTests\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BusinessLogicTests\bin\Debug\ru\System.Web.Optimization.resources.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BusinessLogicTests\bin\Debug\ru\System.Web.Mvc.resources.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BusinessLogicTests\bin\Debug\ru\System.Web.Razor.resources.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BusinessLogicTests\bin\Debug\ru\System.Web.WebPages.Razor.resources.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BusinessLogicTests\bin\Debug\ru\System.Web.WebPages.resources.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BusinessLogicTests\bin\Debug\ru\System.Web.WebPages.Deployment.resources.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BusinessLogicTests\obj\Debug\BusinessLogicTests.csprojAssemblyReference.cache
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BusinessLogicTests\obj\Debug\BusinessLogicTests.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BusinessLogicTests\obj\Debug\BusinessLogicTests.csproj.CopyComplete
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BusinessLogicTests\obj\Debug\BusinessLogicTests.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\CourseWork\BusinessLogicTests\obj\Debug\BusinessLogicTests.pdb

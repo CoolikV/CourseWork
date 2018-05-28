@@ -17,7 +17,6 @@ namespace DAL.Interfaces
 
         IRepository<Tour> Tours { get; }
         IRepository<Hotel> Hotels { get; }
-        IRepository<Transport> Transport { get; }
         IRepository<TourBooking> TourOrders { get; }
         IRepository<HotelBooking> HotelOrders { get; }
         IRepository<TransportBooking> TransportOrders { get; }

@@ -29,12 +29,9 @@ namespace TourAgency.Models
         [Required(ErrorMessage = "Пожалуйста, укажите тип")]
         [Display(Name = "Тип")]
         public string Type { get; set; }
-        //[RegularExpression(Regex,ErrorMessage ="Пожалуйста, укажите дату в формате ДД.ММ.ГГГГ")]
         [Required(ErrorMessage = "Пожалуйста, укажите дату")]
         [Display(Name = "Дата")]
         [DataType(DataType.Date)]
         public DateTime Date { get; set; }
-
-        //const string Regex = "^([0]?[0-9]|[12][0-9]|[3][01])[./-]([0]?[1-9]|[1][0-2])[./-]([0-9]{4}|[0-9]{2})$";
     }
 }

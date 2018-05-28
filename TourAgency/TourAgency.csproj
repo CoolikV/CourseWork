@@ -206,7 +206,6 @@
     <Compile Include="Models\ToursFilterViewModel.cs" />
     <Compile Include="Models\TourViewModel.cs" />
     <Compile Include="Models\TransportOrderViewModel.cs" />
-    <Compile Include="Models\TransportViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Util\AppModule.cs" />
     <Compile Include="Util\WebMapperProfile.cs" />
@@ -260,10 +259,10 @@
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\HotelBooking\Index.cshtml" />
     <Content Include="Views\HotelBooking\MakeOrder.cshtml" />
+    <Content Include="Views\TransportBooking\MakeOrder.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Views\TransportBooking\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />

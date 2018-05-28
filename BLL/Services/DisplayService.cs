@@ -16,9 +16,6 @@ namespace BLL.Services
     {
         IUnitOfWork Database { get; set; }
 
-        IMapper tourDtoMapper = new MapperConfiguration(cfg => cfg.CreateMap<Tour, TourDTO>()).CreateMapper();
-        IMapper hotelDtoMapper = new MapperConfiguration(cfg => cfg.CreateMap<Hotel, HotelDTO>()).CreateMapper();
-        IMapper transportDtoMapper = new MapperConfiguration(cfg => cfg.CreateMap<Transport, TransportDTO>()).CreateMapper();
         public DisplayService(IUnitOfWork uow)
         {
             Database = uow;
@@ -27,15 +24,15 @@ namespace BLL.Services
         {
             if (id == null)
                 throw new ValidationException("Не установлено id тура", "");
-            var tour = Database.Tours.Get(id.Value);
+            var tour = Database.Tours.GetByID(id.Value);
             if (tour == null)
                 throw new ValidationException("Тур не найден", "");
-            return tourDtoMapper.Map<Tour, TourDTO>(tour);
+            return Mapper.Map<Tour, TourDTO>(tour);
         }
 
         public IEnumerable<TourDTO> GetAllTours()
         {
-            return tourDtoMapper.Map<IEnumerable<Tour>, List<TourDTO>>(Database.Tours.GetAll());
+            return Mapper.Map<IEnumerable<Tour>, List<TourDTO>>(Database.Tours.Get());
         }
 
         public void Dispose()
@@ -45,15 +42,14 @@ namespace BLL.Services
 
         public IEnumerable<TourDTO> FindTour(string name)
         {
-            //var mapper = new MapperConfiguration(cfg => cfg.CreateMap<Tour, TourDTO>()).CreateMapper();
-            return tourDtoMapper.Map<IEnumerable<Tour>, List<TourDTO>>(Database.Tours.Find(t => t.Name == name));
+            return Mapper.Map<IEnumerable<Tour>, List<TourDTO>>(Database.Tours.Get(t => t.Name == name));
         }
 
         public List<string> GetCountries()
         {
-            List<string> result = new List<string>() {"Все"};
+            List<string> result = new List<string>() { "Все" };
             var tours = GetAllTours();
-            foreach(TourDTO tour in tours)
+            foreach (TourDTO tour in tours)
             {
                 if (!result.Contains(tour.Country))
                 {
@@ -80,40 +76,21 @@ namespace BLL.Services
 
         public HotelDTO GetHotel(int? id)
         {
-            if(id == null)
+            if (id == null)
             {
                 throw new ValidationException("Не установлено id отеля", "");
             }
-            var hotel = Database.Hotels.Get(id.Value);
-            if(hotel == null)
+            var hotel = Database.Hotels.GetByID(id.Value);
+            if (hotel == null)
             {
                 throw new ValidationException("Тур не найден", "");
             }
-            return hotelDtoMapper.Map<Hotel, HotelDTO>(hotel);
+            return Mapper.Map<Hotel, HotelDTO>(hotel);
         }
 
         public IEnumerable<HotelDTO> GetAllHotels()
         {
-            return hotelDtoMapper.Map<IEnumerable<Hotel>, List<HotelDTO>>(Database.Hotels.GetAll());
-        }
-
-        public TransportDTO GetTransport(int? id)
-        {
-            if(id == null)
-            {
-                throw new ValidationException("Не установлено id транспорта", "");
-            }
-            var transport = Database.Transport.Get(id.Value);
-            if(transport == null)
-            {
-                throw new ValidationException("Транспорт не найден","");
-            }
-            return transportDtoMapper.Map<Transport, TransportDTO>(transport);
-        }
-
-        public IEnumerable<TransportDTO> GetAllTransport()
-        {
-            return transportDtoMapper.Map<IEnumerable<Transport>, List<TransportDTO>>(Database.Transport.GetAll());
+            return Mapper.Map<IEnumerable<Hotel>, List<HotelDTO>>(Database.Hotels.Get());
         }
     }
 }

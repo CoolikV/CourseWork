@@ -9,12 +9,19 @@
 @using (Html.BeginForm())
 {
     @Html.AntiForgeryToken()
-
-    @Html.DisplayNameFor(item => item.EntranceDate) @*Подумать над вводом дат и правильно их разместить, доделать вывод информации об отеле*@ 
-
-    <input type="date" name="EntranceDate" value="@Model.EntranceDate" />
-            @Html.DisplayNameFor(item => item.EvictionDate)
+    <div>
+        <label>@Html.DisplayNameFor(item => item.EntranceDate)</label>
+        <div>
+            <input type="date" name="EntranceDate" value="@Model.EntranceDate" />
+        </div>
+    </div>
+    <hr />
+    <div>
+        <label>@Html.DisplayNameFor(item => item.EvictionDate)</label>
+        <div>
             <input type="date" name="EvictionDate" value="@Model.EvictionDate" />
+        </div>
+    </div>
 
         <div class="form-horizontal">
             <input type="hidden" name="HotelId" value="@Model.HotelId" />
@@ -23,12 +30,13 @@
 
             <div class="form-group">
                 <div class="col-md-offset-2 col-md-10">
-                    <input type="submit" value="Подтвердить заказ" class="btn btn-primary" />
                 </div>
             </div>
         </div>
-}
 
+     <input type="submit" value="Подтвердить заказ" class="btn btn-primary" />
+}
+<h4></h4>
 <div>
     @Html.ActionLink("К выбору отелей", "Index")
 </div>

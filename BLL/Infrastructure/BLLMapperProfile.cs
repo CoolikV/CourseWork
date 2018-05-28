@@ -15,7 +15,6 @@ namespace BLL.Infrastructure
         {
             CreateMap<Tour, TourDTO>();
             CreateMap<Hotel, HotelDTO>();
-            CreateMap<Transport, TransportDTO>();
             CreateMap<User, UserDTO>();
 
             CreateMap<TourBooking, TourOrderDTO>();

@@ -12,12 +12,9 @@ namespace DAL.Entities
     {
         [Key]
         public int Id { get; set; }
-        public decimal Sum { get; set; }
+        public decimal Price { get; set; }
         public string Email { get; set; }
-
-        public int TransportId { get; set; }
-        private Transport Transport { get; set; }
-
-        public DateTime Date { get; set; }
+        public int TransportType { get; set; }
+        public DateTime DepartureDate { get; set; }
     }
 }

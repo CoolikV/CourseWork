@@ -14,6 +14,5 @@ namespace BLL.DTO
         public string Name { get; set; }
         public int Stars { get; set; }
         public string Country { get; set; }
-        //public decimal Price { get; set; }
     }
 }
