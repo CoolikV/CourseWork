@@ -4,19 +4,20 @@ using Moq;
 using System.Collections.Generic;
 using System.Linq;
 using BLL.Services;
-using BLL.DTO;
-using BLL.Interfaces;
 using DAL.Interfaces;
 using DAL.Entities;
-using AutoMapper;
 using TourAgency.App_Start;
-using BLL.Infrastructure;
 using NUnit.Framework;
 namespace BusinessLogicTests
 {
     [TestFixture]
     public class DisplayServiceTests
     {
+        [OneTimeSetUp]
+        public void Initial()
+        {
+            AutoMapperConfig.InitializeConfig();
+        }
         [Test]
         public void GetAllHotelsTest()
         {
@@ -158,7 +159,7 @@ namespace BusinessLogicTests
         public void FindTour_Returns_0_Test()
         {
             //Arrange
-            AutoMapperConfig.InitializeConfig();
+           // AutoMapperConfig.InitializeConfig();
 
             var toursDbMock = new Mock<IRepository<Tour>>();
             toursDbMock.Setup(a => a.Get(t => t.Name == "Name2", null, "")).Returns(new List<Tour>()
