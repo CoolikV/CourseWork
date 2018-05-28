@@ -15,7 +15,7 @@ namespace TourAgency.App_Start
 {
     public class Startup
     {
-        IServiceCreator serviceCreator = new ServiceCreator();
+        IServiceCreator serviceCreator;
         public void Configuration(IAppBuilder app)
         {
             app.CreatePerOwinContext<IUserService>(CreateUserService);
@@ -28,6 +28,7 @@ namespace TourAgency.App_Start
 
         private IUserService CreateUserService()
         {
+            serviceCreator = new ServiceCreator();
             return serviceCreator.CreateUserService("AgencyDatabase");
         }
     }

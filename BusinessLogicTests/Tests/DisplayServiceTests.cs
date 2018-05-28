@@ -106,5 +106,55 @@ namespace BusinessLogicTests
             Assert.AreEqual(1, actual);
             Assert.Throws(typeof(NullReferenceException), GetHotelByIdTest);//как проверять исключения?
         }
+
+        [Test]
+        public void GetCountriesTest()
+        {
+            //Arrange
+            //AutoMapperConfig.InitializeConfig();
+
+            var toursDbMock = new Mock<IRepository<Tour>>();
+            toursDbMock.Setup(a => a.Get(null, null, "")).Returns(new List<Tour>()
+            {
+                new Tour { Id = 1, Country = "Gonduras", Name = "Name1"},
+                new Tour { Id = 2, Country = "Nigeria", Name = "Name2"}
+            });
+
+            var uowMock = new Mock<IUnitOfWork>();
+            uowMock.Setup(uow => uow.Tours).Returns(toursDbMock.Object);
+
+            var display = new DisplayService(uowMock.Object);
+
+            //Act
+            var actual = display.GetCountries();
+
+            //Assert
+            Assert.AreEqual(new List<string>() { "Все", "Gonduras", "Nigeria" }, actual);
+        }
+
+        [Test]
+        public void GetRegionsTest()
+        {
+            //Arrange
+            //AutoMapperConfig.InitializeConfig();
+
+            var toursDbMock = new Mock<IRepository<Tour>>();
+            toursDbMock.Setup(a => a.Get(null, null, "")).Returns(new List<Tour>()
+            {
+                new Tour { Id = 1, Country = "Gonduras", Name = "Name1", Region = "Gondurasij"},
+                new Tour { Id = 2, Country = "Nigeria", Name = "Name2", Region = "Nigerijskij"}
+            });
+
+            var uowMock = new Mock<IUnitOfWork>();
+            uowMock.Setup(uow => uow.Tours).Returns(toursDbMock.Object);
+
+            var display = new DisplayService(uowMock.Object);
+
+            //Act
+            var actual = display.GetRegions();
+
+            //Assert
+            Assert.AreEqual(new List<string>() { "Все", "Gondurasij", "Nigerijskij" }, actual);
+        }
     }
 }
