@@ -9,7 +9,7 @@ using Microsoft.AspNet.Identity.EntityFramework;
 
 namespace DAL.EF
 {
-    public class TourAgencyContext : /*DbContext,*/ IdentityDbContext<User>
+    public class TourAgencyContext : IdentityDbContext<User>
     {
         public DbSet<Tour> Tours { get; set; }
         public DbSet<Transport> Transport { get; set; }
